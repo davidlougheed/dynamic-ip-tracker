@@ -17,7 +17,7 @@ const requestHandler = (req, res) => {
         });
         req.on("end", () => {
             serverPairs[body.trim()] = {
-                ip: req.headers["x-forwarded-for"] || req.connection.remoteAddress,
+                ip: req.headers["x-real-ip"] || req.connection.remoteAddress,
                 ts: (new Date(Date.now())).toISOString()
             };
 
