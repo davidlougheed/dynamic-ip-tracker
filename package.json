@@ -1,0 +1,19 @@
+{
+  "name": "dynamic-ip-tracker",
+  "version": "0.1.0",
+  "description": "dynamic IP tracker",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlougheed/dynamic-ip-tracker.git"
+  },
+  "author": "David Lougheed <david.lougheed@gmail.com>",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/davidlougheed/dynamic-ip-tracker/issues"
+  },
+  "homepage": "https://github.com/davidlougheed/dynamic-ip-tracker#readme"
+}
